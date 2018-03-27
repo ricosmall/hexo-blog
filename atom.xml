@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-27T14:56:50.974Z</updated>
+  <updated>2018-03-27T15:10:10.566Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>测试更过按钮</title>
+    <link href="http://yoursite.com/2018/03/27/%E6%B5%8B%E8%AF%95%E6%9B%B4%E8%BF%87%E6%8C%89%E9%92%AE/"/>
+    <id>http://yoursite.com/2018/03/27/测试更过按钮/</id>
+    <published>2018-03-27T15:09:25.000Z</published>
+    <updated>2018-03-27T15:10:10.566Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="测试一下"><a href="#测试一下" class="headerlink" title="测试一下"></a>测试一下</h2><p>这是一段文字</p>
+<a id="more"></a>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>文字内容</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;测试一下&quot;&gt;&lt;a href=&quot;#测试一下&quot; class=&quot;headerlink&quot; title=&quot;测试一下&quot;&gt;&lt;/a&gt;测试一下&lt;/h2&gt;&lt;p&gt;这是一段文字&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>学习React（一）</title>
     <link href="http://yoursite.com/2018/03/27/%E5%AD%A6%E4%B9%A0React%EF%BC%88%E4%B8%80%EF%BC%89/"/>
     <id>http://yoursite.com/2018/03/27/学习React（一）/</id>
     <published>2018-03-27T13:57:11.000Z</published>
-    <updated>2018-03-27T14:56:50.974Z</updated>
+    <updated>2018-03-27T15:02:14.266Z</updated>
     
     <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>随着了解的使用 React 大法的项目慢慢变多，渐渐产生了兴趣，想要从头好好看看 React。因此就有了这个起手式。</p>
 <!-- more -->
@@ -1009,33 +1030,6 @@
       <category term="Gecko" scheme="http://yoursite.com/tags/Gecko/"/>
     
       <category term="Firefox" scheme="http://yoursite.com/tags/Firefox/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac常用软件收集</title>
-    <link href="http://yoursite.com/2017/05/04/Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%94%B6%E9%9B%86/"/>
-    <id>http://yoursite.com/2017/05/04/Mac常用软件收集/</id>
-    <published>2017-05-04T14:02:33.000Z</published>
-    <updated>2018-03-27T13:52:33.769Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h3><p>作为开发者，macOS是最合适的平台。有人可能无法理解，我的建议是试试就知道。</p>
-<a id="more"></a>
-<h3 id="常用软件"><a href="#常用软件" class="headerlink" title="常用软件"></a>常用软件</h3><p>Snip 截图软件，qq开发一款很好用的截图工具，谁用谁知道。<br>Alfred 快速启动、搜索工具，比自带的spotlight强太多了。<br>Launchbar 同Alfred，但是理念不同，也很强大。<br>Cornerstone 强大的SVN版本管理mac端GUI软件。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;macOS&quot;&gt;&lt;a href=&quot;#macOS&quot; class=&quot;headerlink&quot; title=&quot;macOS&quot;&gt;&lt;/a&gt;macOS&lt;/h3&gt;&lt;p&gt;作为开发者，macOS是最合适的平台。有人可能无法理解，我的建议是试试就知道。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="收藏" scheme="http://yoursite.com/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="macOS" scheme="http://yoursite.com/tags/macOS/"/>
-    
-      <category term="software" scheme="http://yoursite.com/tags/software/"/>
     
   </entry>
   

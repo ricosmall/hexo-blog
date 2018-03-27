@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[测试更过按钮]]></title>
+    <url>%2F2018%2F03%2F27%2F%E6%B5%8B%E8%AF%95%E6%9B%B4%E8%BF%87%E6%8C%89%E9%92%AE%2F</url>
+    <content type="text"><![CDATA[测试一下这是一段文字 标题文字内容]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[学习React（一）]]></title>
     <url>%2F2018%2F03%2F27%2F%E5%AD%A6%E4%B9%A0React%EF%BC%88%E4%B8%80%EF%BC%89%2F</url>
     <content type="text"><![CDATA[背景随着了解的使用 React 大法的项目慢慢变多，渐渐产生了兴趣，想要从头好好看看 React。因此就有了这个起手式。 Hello World12345678910111213141516171819202122232425262728# 新建目录mkdir demo# 初始化yarn init -y# 安装 react、react-domyarn add react react-dom# 新建入口文件touch index.js# 编辑入口文件vim index.js# 新建 index.htmltouch index.html# 编辑 index.htmlvim index.html# 全局安装 parcel，如果已经安装可以跳过npm i -g parcel# 启动项目parcel index.html# 在浏览器中打开 http://localhost:1234 预览 index.js 文件的内容： 1234567import React from 'react'import ReactDom from 'react-dom'ReactDom.render( &lt;h1&gt;Hello World&lt;/h1&gt;, document.getElementById('root')) index.html 文件内容： 1234567891011&lt;!DOCTYPE html&gt;&lt;html lang="zh-CN"&gt;&lt;head&gt; &lt;meta charset="utf-8"&gt; &lt;title&gt;React Demo&lt;/title&gt;&lt;/head&gt;&lt;body&gt; &lt;div id="root"&gt;&lt;/div&gt; &lt;script src="./index.js"&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;]]></content>
@@ -297,8 +302,8 @@
         <category>面试</category>
       </categories>
       <tags>
-        <tag>JavaScript</tag>
         <tag>CSS</tag>
+        <tag>JavaScript</tag>
       </tags>
   </entry>
   <entry>
