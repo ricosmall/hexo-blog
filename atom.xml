@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-27T13:52:33.772Z</updated>
+  <updated>2018-03-27T15:30:54.663Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习React（一）</title>
+    <link href="http://yoursite.com/2018/03/27/%E5%AD%A6%E4%B9%A0React%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://yoursite.com/2018/03/27/学习React（一）/</id>
+    <published>2018-03-27T13:57:11.000Z</published>
+    <updated>2018-03-27T15:30:54.663Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>随着了解的使用 React 大法的项目慢慢变多，渐渐产生了兴趣，想要从头好好看看 React。因此就有了这个起手式。</p>
+<a id="more"></a>
+<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 新建目录</span></div><div class="line">mkdir demo</div><div class="line"></div><div class="line"><span class="comment"># 初始化</span></div><div class="line">yarn init -y</div><div class="line"></div><div class="line"><span class="comment"># 安装 react、react-dom</span></div><div class="line">yarn add react react-dom</div><div class="line"></div><div class="line"><span class="comment"># 新建入口文件</span></div><div class="line">touch index.js</div><div class="line"></div><div class="line"><span class="comment"># 编辑入口文件</span></div><div class="line">vim index.js</div><div class="line"></div><div class="line"><span class="comment"># 新建 index.html</span></div><div class="line">touch index.html</div><div class="line"></div><div class="line"><span class="comment"># 编辑 index.html</span></div><div class="line">vim index.html</div><div class="line"></div><div class="line"><span class="comment"># 全局安装 parcel，如果已经安装可以跳过</span></div><div class="line">npm i -g parcel</div><div class="line"></div><div class="line"><span class="comment"># 启动项目</span></div><div class="line">parcel index.html</div><div class="line"></div><div class="line"><span class="comment"># 在浏览器中打开 http://localhost:1234 预览</span></div></pre></td></tr></table></figure>
+<p><code>index.js</code> 文件的内容：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span></div><div class="line"><span class="keyword">import</span> ReactDom <span class="keyword">from</span> <span class="string">'react-dom'</span></div><div class="line"></div><div class="line">ReactDom.render(</div><div class="line">    &lt;h1&gt;Hello World&lt;<span class="regexp">/h1&gt;,</span></div><div class="line"><span class="regexp">    document.getElementById('root')</span></div><div class="line"><span class="regexp">)</span></div></pre></td></tr></table></figure>
+<p><code>index.html</code> 文件内容：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"zh-CN"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>React Demo<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"root"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"./index.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;随着了解的使用 React 大法的项目慢慢变多，渐渐产生了兴趣，想要从头好好看看 React。因此就有了这个起手式。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="React" scheme="http://yoursite.com/tags/React/"/>
+    
+  </entry>
   
   <entry>
     <title>python-二分查找</title>
@@ -1007,46 +1035,6 @@
       <category term="macOS" scheme="http://yoursite.com/tags/macOS/"/>
     
       <category term="software" scheme="http://yoursite.com/tags/software/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大整数加法、乘法的JavaScript实现</title>
-    <link href="http://yoursite.com/2017/03/30/%E5%A4%A7%E6%95%B4%E6%95%B0%E5%8A%A0%E6%B3%95%E3%80%81%E4%B9%98%E6%B3%95%E7%9A%84JavaScript%E5%AE%9E%E7%8E%B0/"/>
-    <id>http://yoursite.com/2017/03/30/大整数加法、乘法的JavaScript实现/</id>
-    <published>2017-03-30T09:56:45.000Z</published>
-    <updated>2018-03-27T13:52:33.768Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>在某些情况下，我们要处理很大的整数，它无法在计算机硬件能直接表示的范围内进行处理。若用浮点数来表示它，则只能近似地表示它的大小，计算结果中的有效数字也受到限制。若要精确地表示大整数并在计算结果中要求精确地得到所有位数上的数字，就必须用软件的方法来实现大整数的算术运算。</p>
-<p>– 引用<a href="https://sites.google.com/a/chaoskey.com/algorithm/02/02" target="_blank" rel="external">混沌</a>的原话。</p>
-</blockquote>
-<a id="more"></a>
-<h2 id="大整数加法"><a href="#大整数加法" class="headerlink" title="大整数加法"></a>大整数加法</h2><p>在另一篇文章中已经整理过，在这里再贴一次吧。这不是我自己想出来的方法，这是在网上找的大神写的方法，具体源头我也没找到。至少我找到的算法里面没有比这个更简单的了。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 方法</span></div><div class="line"><span class="keyword">var</span> bigNumStringAddition = <span class="function">(<span class="params">a, b</span>) =&gt;</span> &#123;</div><div class="line"></div><div class="line">    <span class="keyword">let</span> result = <span class="string">''</span>,</div><div class="line">        tempVal = <span class="number">0</span>,</div><div class="line">        arra = a.split(<span class="string">''</span>),</div><div class="line">        arrb = b.split(<span class="string">''</span>);</div><div class="line"></div><div class="line">    <span class="keyword">while</span> (arra.length || arrb.length || tempVal) &#123;</div><div class="line"></div><div class="line">        tempVal += ~~arra.pop() + ~~arrb.pop();</div><div class="line"></div><div class="line">        result = tempVal % <span class="number">10</span> + result;</div><div class="line"></div><div class="line">        tempVal = tempVal &gt; <span class="number">9</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> result.replace(<span class="regexp">/^0+/</span>, <span class="string">''</span>);</div><div class="line"></div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="comment">// 测试</span></div><div class="line">bigNumStringAddition(<span class="string">'87683997878946347862738468726348289374972938479823749872938479234923846237672364732478237492394738748273948789237487238472389478923748782364723647823847283974'</span>, <span class="string">'92734897238947832456237489273498723984782365783465782634786287346782638472983749823748357634785278348273498723894792387489327487238478234827389472938748923748235862384782374'</span>);</div><div class="line"></div><div class="line"><span class="comment">// '92734897238947920140235368219846586723251092131755157607724767170532511411462984747594595307150010826510991118633540661438116724725716707216868396687531288471883686232066348'</span></div></pre></td></tr></table></figure>
-<h2 id="大整数乘法"><a href="#大整数乘法" class="headerlink" title="大整数乘法"></a>大整数乘法</h2><p>大整数加法的JavaScript实现和大整数乘法的JavaScript实现是我在两次面试中碰到的问题。大整数加法的算法我找到了上面的算法，各种奇淫技巧，简单得不行。大整数乘法呢我没有找到满意的算法，先把自己写的贴上来吧。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 方法</span></div><div class="line"><span class="keyword">var</span> bigNumStringMultiply = <span class="function">(<span class="params">a, b</span>) =&gt;</span> &#123;</div><div class="line"></div><div class="line">    <span class="keyword">let</span> arra = a.split(<span class="string">''</span>).reverse(),</div><div class="line">        arrb = b.split(<span class="string">''</span>).reverse(),</div><div class="line">        lena = arra.length,</div><div class="line">        lenb = arrb.length,</div><div class="line">        result = <span class="built_in">Array</span>(lena + lenb + <span class="number">1</span>).join(<span class="string">'0'</span>).split(<span class="string">''</span>);</div><div class="line"></div><div class="line">    arra.map(<span class="function">(<span class="params">itema, indexa</span>) =&gt;</span> &#123;</div><div class="line">        arrb.map(<span class="function">(<span class="params">itemb, indexb</span>) =&gt;</span> &#123;</div><div class="line">            result[indexa + indexb] = +result[indexa + indexb] + itema * itemb;</div><div class="line">        &#125;);</div><div class="line">    &#125;);</div><div class="line"></div><div class="line">    result.map(<span class="function">(<span class="params">item, index</span>) =&gt;</span> &#123;</div><div class="line">        <span class="keyword">if</span> (item &gt;= <span class="number">10</span>) &#123;</div><div class="line">            result[index + <span class="number">1</span>] = ~~result[index + <span class="number">1</span>] + ~~(result[index] / <span class="number">10</span>);</div><div class="line">            result[index] %= <span class="number">10</span>;</div><div class="line">        &#125;</div><div class="line">    &#125;);</div><div class="line"></div><div class="line">    <span class="keyword">return</span> result.reverse().join(<span class="string">''</span>).replace(<span class="regexp">/^0+/</span>, <span class="string">''</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 测试</span></div><div class="line">bigNumStringMultiply(<span class="string">'87683997878946347862738468726348289374972938479823749872938479234923846237672364732478237492394738748273948789237487238472389478923748782364723647823847283974'</span>, <span class="string">'92734897238947832456237489273498723984782365783465782634786287346782638472983749823748357634785278348273498723894792387489327487238478234827389472938748923748235862384782374'</span>);</div><div class="line"></div><div class="line"><span class="comment">// '8131366532804209271848777343148089734867540084740313073714626072147803459519225889924153683477346079879903114543791258684883828524130882115379440144725160920757443592354053118047908949159167193991569423470425543890534108742857689635336451466135028613346191424578161286549581455047710048500852396172271754236155746244567328967874276'</span></div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;在某些情况下，我们要处理很大的整数，它无法在计算机硬件能直接表示的范围内进行处理。若用浮点数来表示它，则只能近似地表示它的大小，计算结果中的有效数字也受到限制。若要精确地表示大整数并在计算结果中要求精确地得到所有位数上的数字，就必须用软件的方法来实现大整数的算术运算。&lt;/p&gt;
-&lt;p&gt;– 引用&lt;a href=&quot;https://sites.google.com/a/chaoskey.com/algorithm/02/02&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;混沌&lt;/a&gt;的原话。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
-    
-      <category term="algorithm" scheme="http://yoursite.com/tags/algorithm/"/>
-    
-      <category term="大整数加法" scheme="http://yoursite.com/tags/%E5%A4%A7%E6%95%B4%E6%95%B0%E5%8A%A0%E6%B3%95/"/>
-    
-      <category term="大整数乘法" scheme="http://yoursite.com/tags/%E5%A4%A7%E6%95%B4%E6%95%B0%E4%B9%98%E6%B3%95/"/>
     
   </entry>
   
