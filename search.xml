@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[解决SecureCRT无法保存密码的问题]]></title>
+    <url>%2F2018%2F03%2F28%2F%E8%A7%A3%E5%86%B3SecureCRT%E6%97%A0%E6%B3%95%E4%BF%9D%E5%AD%98%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[问题在 SecureCRT 上登录同一台机器，每次都要输入密码，非常繁琐。登录的时候「保存密码」的选项又是勾上的，就是不起作用，怎么办呢？ 方法打开 secureCRT =&gt; Preferences，左侧选择 General，去掉右侧面板中 Use Keychain 选项，如下图： 然后登录的时候确保「保存密码」 选项选中的情况下，成功登录一次之后，密码就会保存下来了。]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>SecureCRT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[学习React（一）]]></title>
     <url>%2F2018%2F03%2F27%2F%E5%AD%A6%E4%B9%A0React%EF%BC%88%E4%B8%80%EF%BC%89%2F</url>
     <content type="text"><![CDATA[背景随着了解的使用 React 大法的项目慢慢变多，渐渐产生了兴趣，想要从头好好看看 React。因此就有了这个起手式。 Hello World12345678910111213141516171819202122232425262728# 新建目录mkdir demo# 初始化yarn init -y# 安装 react、react-domyarn add react react-dom# 新建入口文件touch index.js# 编辑入口文件vim index.js# 新建 index.htmltouch index.html# 编辑 index.htmlvim index.html# 全局安装 parcel，如果已经安装可以跳过npm i -g parcel# 启动项目parcel index.html# 在浏览器中打开 http://localhost:1234 预览 index.js 文件的内容： 1234567import React from 'react'import ReactDom from 'react-dom'ReactDom.render( &lt;h1&gt;Hello World&lt;/h1&gt;, document.getElementById('root')) index.html 文件内容： 1234567891011&lt;!DOCTYPE html&gt;&lt;html lang="zh-CN"&gt;&lt;head&gt; &lt;meta charset="utf-8"&gt; &lt;title&gt;React Demo&lt;/title&gt;&lt;/head&gt;&lt;body&gt; &lt;div id="root"&gt;&lt;/div&gt; &lt;script src="./index.js"&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;]]></content>
@@ -297,8 +308,8 @@
         <category>面试</category>
       </categories>
       <tags>
-        <tag>JavaScript</tag>
         <tag>CSS</tag>
+        <tag>JavaScript</tag>
       </tags>
   </entry>
   <entry>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-27T15:30:54.663Z</updated>
+  <updated>2018-03-28T15:22:56.429Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决SecureCRT无法保存密码的问题</title>
+    <link href="http://yoursite.com/2018/03/28/%E8%A7%A3%E5%86%B3SecureCRT%E6%97%A0%E6%B3%95%E4%BF%9D%E5%AD%98%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2018/03/28/解决SecureCRT无法保存密码的问题/</id>
+    <published>2018-03-28T15:08:45.000Z</published>
+    <updated>2018-03-28T15:22:56.429Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>在 SecureCRT 上登录同一台机器，每次都要输入密码，非常繁琐。登录的时候「保存密码」的选项又是勾上的，就是不起作用，怎么办呢？</p>
+<p><img src="http://o9o8lcfa3.bkt.clouddn.com/securecrt-connect.png" alt="login-settings"></p>
+<h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>打开 secureCRT =&gt; Preferences，左侧选择 General，去掉右侧面板中 Use Keychain 选项，如下图：</p>
+<p><img src="http://o9o8lcfa3.bkt.clouddn.com/securecrt-settings.png" alt="securecrt-settings"></p>
+<p>然后登录的时候确保「保存密码」 选项选中的情况下，成功登录一次之后，密码就会保存下来了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;在 SecureCRT 上登录同一台机器，每次都要输入密码，非常繁琐。登录的时候「保存密码」的选项又是勾上的，就是不起作用，怎么办呢？&lt;/p
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="SecureCRT" scheme="http://yoursite.com/tags/SecureCRT/"/>
+    
+  </entry>
   
   <entry>
     <title>学习React（一）</title>
@@ -1008,33 +1035,6 @@
       <category term="Gecko" scheme="http://yoursite.com/tags/Gecko/"/>
     
       <category term="Firefox" scheme="http://yoursite.com/tags/Firefox/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mac常用软件收集</title>
-    <link href="http://yoursite.com/2017/05/04/Mac%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%94%B6%E9%9B%86/"/>
-    <id>http://yoursite.com/2017/05/04/Mac常用软件收集/</id>
-    <published>2017-05-04T14:02:33.000Z</published>
-    <updated>2018-03-28T14:21:13.845Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a>macOS</h3><p>作为开发者，macOS是最合适的平台。有人可能无法理解，我的建议是试试就知道。</p>
-<a id="more"></a>
-<h3 id="常用软件"><a href="#常用软件" class="headerlink" title="常用软件"></a>常用软件</h3><p><a href="http://snip.qq.com/" target="_blank" rel="external">Snip</a> 截图软件，qq 开发一款很好用的截图工具。<br><a href="https://www.alfredapp.com/" target="_blank" rel="external">Alfred</a> 快速启动、搜索工具，比自带的 spotlight 强太多了。<br><a href="https://www.obdev.at/products/launchbar/index.html" target="_blank" rel="external">Launchbar</a> 同 Alfred，但是理念不同，也很强大。<br><a href="https://cornerstone.assembla.com/" target="_blank" rel="external">Cornerstone</a> 强大的 mac 版 SVN 版本管理 GUI 软件。<br><a href="https://macdown.uranusjr.com/" target="_blank" rel="external">MacDown</a> mac 版 Markdown 编辑器。<br><a href="http://mplayerx.org/" target="_blank" rel="external">MPlayerX</a> mac 版视频播放器，好用。<br><a href="https://theunarchiver.com/" target="_blank" rel="external">The Unarchiver</a> mac 版文件解压工具。<br><a href="https://www.spectacleapp.com/" target="_blank" rel="external">Spectacle</a> mac 版分屏工具。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;macOS&quot;&gt;&lt;a href=&quot;#macOS&quot; class=&quot;headerlink&quot; title=&quot;macOS&quot;&gt;&lt;/a&gt;macOS&lt;/h3&gt;&lt;p&gt;作为开发者，macOS是最合适的平台。有人可能无法理解，我的建议是试试就知道。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="收藏" scheme="http://yoursite.com/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="macOS" scheme="http://yoursite.com/tags/macOS/"/>
-    
-      <category term="software" scheme="http://yoursite.com/tags/software/"/>
     
   </entry>
   
