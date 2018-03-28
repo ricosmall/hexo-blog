@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-28T15:22:56.429Z</updated>
+  <updated>2018-03-28T15:27:43.956Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,11 @@
     <link href="http://yoursite.com/2018/03/28/%E8%A7%A3%E5%86%B3SecureCRT%E6%97%A0%E6%B3%95%E4%BF%9D%E5%AD%98%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2018/03/28/解决SecureCRT无法保存密码的问题/</id>
     <published>2018-03-28T15:08:45.000Z</published>
-    <updated>2018-03-28T15:22:56.429Z</updated>
+    <updated>2018-03-28T15:27:43.956Z</updated>
     
     <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>在 SecureCRT 上登录同一台机器，每次都要输入密码，非常繁琐。登录的时候「保存密码」的选项又是勾上的，就是不起作用，怎么办呢？</p>
 <p><img src="http://o9o8lcfa3.bkt.clouddn.com/securecrt-connect.png" alt="login-settings"></p>
+<a id="more"></a>
 <h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>打开 secureCRT =&gt; Preferences，左侧选择 General，去掉右侧面板中 Use Keychain 选项，如下图：</p>
 <p><img src="http://o9o8lcfa3.bkt.clouddn.com/securecrt-settings.png" alt="securecrt-settings"></p>
 <p>然后登录的时候确保「保存密码」 选项选中的情况下，成功登录一次之后，密码就会保存下来了。</p>
@@ -31,7 +32,8 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;在 SecureCRT 上登录同一台机器，每次都要输入密码，非常繁琐。登录的时候「保存密码」的选项又是勾上的，就是不起作用，怎么办呢？&lt;/p
+      &lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;在 SecureCRT 上登录同一台机器，每次都要输入密码，非常繁琐。登录的时候「保存密码」的选项又是勾上的，就是不起作用，怎么办呢？&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://o9o8lcfa3.bkt.clouddn.com/securecrt-connect.png&quot; alt=&quot;login-settings&quot;&gt;&lt;/p&gt;
     
     </summary>
     
