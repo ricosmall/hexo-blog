@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-29T15:23:55.244Z</updated>
+  <updated>2018-03-29T15:26:53.682Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,9 +20,11 @@
     <link href="http://yoursite.com/2018/03/29/%E5%AD%A6%E4%B9%A0React%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
     <id>http://yoursite.com/2018/03/29/学习React（二）/</id>
     <published>2018-03-29T15:10:34.000Z</published>
-    <updated>2018-03-29T15:23:55.244Z</updated>
+    <updated>2018-03-29T15:26:53.682Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Components"><a href="#Components" class="headerlink" title="Components"></a>Components</h2><h3 id="Functional-Components"><a href="#Functional-Components" class="headerlink" title="Functional Components"></a>Functional Components</h3><p><code>index.js</code> 文件内容：</p>
+    <content type="html"><![CDATA[<h2 id="Components"><a href="#Components" class="headerlink" title="Components"></a>Components</h2><p>React 组件分为函数式组件（Functional Components） 和类式组件（Class Components）。从字面意思可以看出来，组件可以写成函数形式，也可以写成类的形式。</p>
+<a id="more"></a>
+<h3 id="Functional-Components"><a href="#Functional-Components" class="headerlink" title="Functional Components"></a>Functional Components</h3><p><code>index.js</code> 文件内容：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span></div><div class="line"><span class="keyword">import</span> ReactDom <span class="keyword">from</span> <span class="string">'react-dom'</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Welcome</span> (<span class="params">props</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, &#123;props.name&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></div><div class="line">&#125;</div><div class="line"></div><div class="line">ReactDom.render(</div><div class="line">    &lt;Welcome name=<span class="string">"John"</span> /&gt;,</div><div class="line">    <span class="built_in">document</span>.getElementById(<span class="string">'root'</span>)</div><div class="line">)</div></pre></td></tr></table></figure>
 <h3 id="Class-Components"><a href="#Class-Components" class="headerlink" title="Class Components"></a>Class Components</h3><p><code>index.js</code> 文件内容：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span></div><div class="line"><span class="keyword">import</span> ReactDom <span class="keyword">from</span> <span class="string">'react-dom'</span></div><div class="line"></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Welcome</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span> </span>&#123;</div><div class="line">    <span class="keyword">constructor</span> () &#123;</div><div class="line">        <span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello, &#123;this.props.name&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">ReactDom.render(</div><div class="line">    &lt;Welcome name=<span class="string">"John"</span> /&gt;,</div><div class="line">    <span class="built_in">document</span>.getElementById(<span class="string">'root'</span>)</div><div class="line">)</div></pre></td></tr></table></figure>
@@ -33,7 +35,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Components&quot;&gt;&lt;a href=&quot;#Components&quot; class=&quot;headerlink&quot; title=&quot;Components&quot;&gt;&lt;/a&gt;Components&lt;/h2&gt;&lt;h3 id=&quot;Functional-Components&quot;&gt;&lt;a href=&quot;#
+      &lt;h2 id=&quot;Components&quot;&gt;&lt;a href=&quot;#Components&quot; class=&quot;headerlink&quot; title=&quot;Components&quot;&gt;&lt;/a&gt;Components&lt;/h2&gt;&lt;p&gt;React 组件分为函数式组件（Functional Components） 和类式组件（Class Components）。从字面意思可以看出来，组件可以写成函数形式，也可以写成类的形式。&lt;/p&gt;
     
     </summary>
     
