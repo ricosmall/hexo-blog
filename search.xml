@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[学习React（二）]]></title>
+    <url>%2F2018%2F03%2F29%2F%E5%AD%A6%E4%B9%A0React%EF%BC%88%E4%BA%8C%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[ComponentsFunctional Componentsindex.js 文件内容： 1234567891011import React from 'react'import ReactDom from 'react-dom'function Welcome (props) &#123; return &lt;h1&gt;Hello, &#123;props.name&#125;&lt;/h1&gt;&#125;ReactDom.render( &lt;Welcome name="John" /&gt;, document.getElementById('root')) Class Componentsindex.js 文件内容： 12345678910111213import React from 'react'import ReactDom from 'react-dom'class Welcome extends React.Component &#123; constructor () &#123; return &lt;h1&gt;Hello, &#123;this.props.name&#125;&lt;/h1&gt; &#125;&#125;ReactDom.render( &lt;Welcome name="John" /&gt;, document.getElementById('root')) index.html 文件内容： 1234567891011&lt;!DOCTYPE html&gt;&lt;html lang="zh-CN"&gt;&lt;head&gt; &lt;meta charset="utf-8"&gt; &lt;title&gt;React Demo&lt;/title&gt;&lt;/head&gt;&lt;body&gt; &lt;div id="root"&gt;&lt;/div&gt; &lt;script src="./index.js"&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt; Functional Components 和 Class Components 可以混用，本质上都是传入只读的 props 对象，保证数据的单向流动，React 根据 props 对象传入的内容更新渲染 DOM。]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>React</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[解决SecureCRT无法保存密码的问题]]></title>
     <url>%2F2018%2F03%2F28%2F%E8%A7%A3%E5%86%B3SecureCRT%E6%97%A0%E6%B3%95%E4%BF%9D%E5%AD%98%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
     <content type="text"><![CDATA[问题在 SecureCRT 上登录同一台机器，每次都要输入密码，非常繁琐。登录的时候「保存密码」的选项又是勾上的，就是不起作用，怎么办呢？ 方法打开 secureCRT =&gt; Preferences，左侧选择 General，去掉右侧面板中 Use Keychain 选项，如下图： 然后登录的时候确保「保存密码」 选项选中的情况下，成功登录一次之后，密码就会保存下来了。]]></content>
