@@ -71,5 +71,6 @@ deploy:
   type: git
   repository:
     github: git@github.com:ricosmall/hexo-blog.git
+    # 需要部署到coding的时候再打开下面的选项
     # coding: git@git.coding.net:ricosmall/ricosmall.coding.me.git
   branch: master
