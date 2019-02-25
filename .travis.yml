@@ -1,0 +1,44 @@
+language: node_js
+node_js: 8.9.4
+
+# Travis-CI Caching
+cache:
+  directories:
+    - node_modules
+
+
+# S: Build Lifecycle
+install:
+  # - npm install -g hexo-cli
+  # - npm install
+  - yarn
+  # - npm install hexo-generator-feed@1
+  # - yarn add hexo-generator-feed@1
+
+before_script:
+ # - npm install -g gulp
+  # - git clone https://github.com/ricosmall/hexo-theme-next.git --depth=1 ./themes/next
+  # - git clone https://github.com/theme-next/hexo-theme-next.git --depth=1 ./themes/next
+
+
+script:
+  # - hexo generate
+  cd ./public
+
+
+after_script:
+  # - cd ./public
+  - git init
+  - git config user.name "ricosmall"
+  - git config user.email "805163443@qq.com"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - hexo
+env:
+ global:
+   - GH_REF: github.com/ricosmall/ricosmall.github.io.git
