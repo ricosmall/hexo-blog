@@ -6,10 +6,10 @@
 
 
 <html class="theme-next mist use-motion" lang="zh-Hans">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
@@ -19,8 +19,8 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -38,7 +38,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -78,41 +78,41 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="JavaScript,algorithm,大整数加法,大整数乘法," />
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css">
 
 
-
-
-
-  <link rel="alternate" href="/atom.xml" title="进击的前端" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+  <meta name="keywords" content="JavaScript,algorithm,大整数加法,大整数乘法,">
 
 
 
 
 
+  <link rel="alternate" href="/atom.xml" title="进击的前端" type="application/atom+xml">
 
-<meta name="description" content="在某些情况下，我们要处理很大的整数，它无法在计算机硬件能直接表示的范围内进行处理。若用浮点数来表示它，则只能近似地表示它的大小，计算结果中的有效数字也受到限制。若要精确地表示大整数并在计算结果中要求精确地得到所有位数上的数字，就必须用软件的方法来实现大整数的算术运算。 – 引用混沌的原话。">
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1">
+
+
+
+
+
+
+<meta name="description" content="在某些情况下，我们要处理很大的整数，它无法在计算机硬件能直接表示的范围内进行处理。若用浮点数来表示它，则只能近似地表示它的大小，计算结果中的有效数字也受到限制。若要精确地表示大整数并在计算结果中要求精确地得到所有位数上的数字，就必须用软件的方法来实现大整数的算术运算。   – 引用混沌的原话。">
 <meta name="keywords" content="JavaScript,algorithm,大整数加法,大整数乘法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="大整数加法、乘法的JavaScript实现">
 <meta property="og:url" content="http://yoursite.com/2017/03/30/大整数加法、乘法的JavaScript实现/index.html">
 <meta property="og:site_name" content="进击的前端">
-<meta property="og:description" content="在某些情况下，我们要处理很大的整数，它无法在计算机硬件能直接表示的范围内进行处理。若用浮点数来表示它，则只能近似地表示它的大小，计算结果中的有效数字也受到限制。若要精确地表示大整数并在计算结果中要求精确地得到所有位数上的数字，就必须用软件的方法来实现大整数的算术运算。 – 引用混沌的原话。">
+<meta property="og:description" content="在某些情况下，我们要处理很大的整数，它无法在计算机硬件能直接表示的范围内进行处理。若用浮点数来表示它，则只能近似地表示它的大小，计算结果中的有效数字也受到限制。若要精确地表示大整数并在计算结果中要求精确地得到所有位数上的数字，就必须用软件的方法来实现大整数的算术运算。   – 引用混沌的原话。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-03-27T13:52:33.768Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="大整数加法、乘法的JavaScript实现">
-<meta name="twitter:description" content="在某些情况下，我们要处理很大的整数，它无法在计算机硬件能直接表示的范围内进行处理。若用浮点数来表示它，则只能近似地表示它的大小，计算结果中的有效数字也受到限制。若要精确地表示大整数并在计算结果中要求精确地得到所有位数上的数字，就必须用软件的方法来实现大整数的算术运算。 – 引用混沌的原话。">
+<meta name="twitter:description" content="在某些情况下，我们要处理很大的整数，它无法在计算机硬件能直接表示的范围内进行处理。若用浮点数来表示它，则只能近似地表示它的大小，计算结果中的有效数字也受到限制。若要精确地表示大整数并在计算结果中要求精确地得到所有位数上的数字，就必须用软件的方法来实现大整数的算术运算。   – 引用混沌的原话。">
 
 
 
@@ -140,7 +140,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/03/30/大整数加法、乘法的JavaScript实现/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/03/30/大整数加法、乘法的JavaScript实现/">
 
 
 
@@ -180,7 +180,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">进击的前端</span>
         <span class="logo-line-after"><i></i></span>
@@ -210,7 +210,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
           </a>
@@ -220,7 +220,7 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
             
             分类
           </a>
@@ -230,7 +230,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             归档
           </a>
@@ -240,7 +240,7 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
             
             标签
           </a>
@@ -250,7 +250,7 @@
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
             
             关于
           </a>
@@ -263,7 +263,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
             
             搜索
           </a>
@@ -284,9 +284,7 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
     </div>
   </div>
   <div id="local-search-result"></div>
@@ -323,7 +321,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Rico">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content>
       <meta itemprop="image" content="/uploads/avatar.png">
     </span>
 
@@ -359,7 +357,7 @@
           </span>
 
           
-            <span class="post-category" >
+            <span class="post-category">
             
               <span class="post-meta-divider">|</span>
             
@@ -384,17 +382,6 @@
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/03/30/大整数加法、乘法的JavaScript实现/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/03/30/大整数加法、乘法的JavaScript实现/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -403,7 +390,7 @@
           
             <span class="post-meta-divider">|</span>
             <span class="page-pv"><i class="fa fa-file-o"></i>浏览
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>次
             </span>
           
 
@@ -423,13 +410,15 @@
       
         <blockquote>
 <p>在某些情况下，我们要处理很大的整数，它无法在计算机硬件能直接表示的范围内进行处理。若用浮点数来表示它，则只能近似地表示它的大小，计算结果中的有效数字也受到限制。若要精确地表示大整数并在计算结果中要求精确地得到所有位数上的数字，就必须用软件的方法来实现大整数的算术运算。</p>
-<p>– 引用<a href="https://sites.google.com/a/chaoskey.com/algorithm/02/02" target="_blank" rel="external">混沌</a>的原话。</p>
+</blockquote>
+<blockquote>
+<p>– 引用<a href="https://sites.google.com/a/chaoskey.com/algorithm/02/02" target="_blank" rel="noopener">混沌</a>的原话。</p>
 </blockquote>
 <a id="more"></a>
 <h2 id="大整数加法"><a href="#大整数加法" class="headerlink" title="大整数加法"></a>大整数加法</h2><p>在另一篇文章中已经整理过，在这里再贴一次吧。这不是我自己想出来的方法，这是在网上找的大神写的方法，具体源头我也没找到。至少我找到的算法里面没有比这个更简单的了。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 方法</span></div><div class="line"><span class="keyword">var</span> bigNumStringAddition = <span class="function">(<span class="params">a, b</span>) =&gt;</span> &#123;</div><div class="line"></div><div class="line">    <span class="keyword">let</span> result = <span class="string">''</span>,</div><div class="line">        tempVal = <span class="number">0</span>,</div><div class="line">        arra = a.split(<span class="string">''</span>),</div><div class="line">        arrb = b.split(<span class="string">''</span>);</div><div class="line"></div><div class="line">    <span class="keyword">while</span> (arra.length || arrb.length || tempVal) &#123;</div><div class="line"></div><div class="line">        tempVal += ~~arra.pop() + ~~arrb.pop();</div><div class="line"></div><div class="line">        result = tempVal % <span class="number">10</span> + result;</div><div class="line"></div><div class="line">        tempVal = tempVal &gt; <span class="number">9</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> result.replace(<span class="regexp">/^0+/</span>, <span class="string">''</span>);</div><div class="line"></div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="comment">// 测试</span></div><div class="line">bigNumStringAddition(<span class="string">'87683997878946347862738468726348289374972938479823749872938479234923846237672364732478237492394738748273948789237487238472389478923748782364723647823847283974'</span>, <span class="string">'92734897238947832456237489273498723984782365783465782634786287346782638472983749823748357634785278348273498723894792387489327487238478234827389472938748923748235862384782374'</span>);</div><div class="line"></div><div class="line"><span class="comment">// '92734897238947920140235368219846586723251092131755157607724767170532511411462984747594595307150010826510991118633540661438116724725716707216868396687531288471883686232066348'</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 方法</span></span><br><span class="line"><span class="keyword">var</span> bigNumStringAddition = <span class="function">(<span class="params">a, b</span>) =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> result = <span class="string">''</span>,</span><br><span class="line">        tempVal = <span class="number">0</span>,</span><br><span class="line">        arra = a.split(<span class="string">''</span>),</span><br><span class="line">        arrb = b.split(<span class="string">''</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (arra.length || arrb.length || tempVal) &#123;</span><br><span class="line"></span><br><span class="line">        tempVal += ~~arra.pop() + ~~arrb.pop();</span><br><span class="line"></span><br><span class="line">        result = tempVal % <span class="number">10</span> + result;</span><br><span class="line"></span><br><span class="line">        tempVal = tempVal &gt; <span class="number">9</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> result.replace(<span class="regexp">/^0+/</span>, <span class="string">''</span>);</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 测试</span></span><br><span class="line">bigNumStringAddition(<span class="string">'87683997878946347862738468726348289374972938479823749872938479234923846237672364732478237492394738748273948789237487238472389478923748782364723647823847283974'</span>, <span class="string">'92734897238947832456237489273498723984782365783465782634786287346782638472983749823748357634785278348273498723894792387489327487238478234827389472938748923748235862384782374'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// '92734897238947920140235368219846586723251092131755157607724767170532511411462984747594595307150010826510991118633540661438116724725716707216868396687531288471883686232066348'</span></span><br></pre></td></tr></table></figure>
 <h2 id="大整数乘法"><a href="#大整数乘法" class="headerlink" title="大整数乘法"></a>大整数乘法</h2><p>大整数加法的JavaScript实现和大整数乘法的JavaScript实现是我在两次面试中碰到的问题。大整数加法的算法我找到了上面的算法，各种奇淫技巧，简单得不行。大整数乘法呢我没有找到满意的算法，先把自己写的贴上来吧。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 方法</span></div><div class="line"><span class="keyword">var</span> bigNumStringMultiply = <span class="function">(<span class="params">a, b</span>) =&gt;</span> &#123;</div><div class="line"></div><div class="line">    <span class="keyword">let</span> arra = a.split(<span class="string">''</span>).reverse(),</div><div class="line">        arrb = b.split(<span class="string">''</span>).reverse(),</div><div class="line">        lena = arra.length,</div><div class="line">        lenb = arrb.length,</div><div class="line">        result = <span class="built_in">Array</span>(lena + lenb + <span class="number">1</span>).join(<span class="string">'0'</span>).split(<span class="string">''</span>);</div><div class="line"></div><div class="line">    arra.map(<span class="function">(<span class="params">itema, indexa</span>) =&gt;</span> &#123;</div><div class="line">        arrb.map(<span class="function">(<span class="params">itemb, indexb</span>) =&gt;</span> &#123;</div><div class="line">            result[indexa + indexb] = +result[indexa + indexb] + itema * itemb;</div><div class="line">        &#125;);</div><div class="line">    &#125;);</div><div class="line"></div><div class="line">    result.map(<span class="function">(<span class="params">item, index</span>) =&gt;</span> &#123;</div><div class="line">        <span class="keyword">if</span> (item &gt;= <span class="number">10</span>) &#123;</div><div class="line">            result[index + <span class="number">1</span>] = ~~result[index + <span class="number">1</span>] + ~~(result[index] / <span class="number">10</span>);</div><div class="line">            result[index] %= <span class="number">10</span>;</div><div class="line">        &#125;</div><div class="line">    &#125;);</div><div class="line"></div><div class="line">    <span class="keyword">return</span> result.reverse().join(<span class="string">''</span>).replace(<span class="regexp">/^0+/</span>, <span class="string">''</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// 测试</span></div><div class="line">bigNumStringMultiply(<span class="string">'87683997878946347862738468726348289374972938479823749872938479234923846237672364732478237492394738748273948789237487238472389478923748782364723647823847283974'</span>, <span class="string">'92734897238947832456237489273498723984782365783465782634786287346782638472983749823748357634785278348273498723894792387489327487238478234827389472938748923748235862384782374'</span>);</div><div class="line"></div><div class="line"><span class="comment">// '8131366532804209271848777343148089734867540084740313073714626072147803459519225889924153683477346079879903114543791258684883828524130882115379440144725160920757443592354053118047908949159167193991569423470425543890534108742857689635336451466135028613346191424578161286549581455047710048500852396172271754236155746244567328967874276'</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 方法</span></span><br><span class="line"><span class="keyword">var</span> bigNumStringMultiply = <span class="function">(<span class="params">a, b</span>) =&gt;</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> arra = a.split(<span class="string">''</span>).reverse(),</span><br><span class="line">        arrb = b.split(<span class="string">''</span>).reverse(),</span><br><span class="line">        lena = arra.length,</span><br><span class="line">        lenb = arrb.length,</span><br><span class="line">        result = <span class="built_in">Array</span>(lena + lenb + <span class="number">1</span>).join(<span class="string">'0'</span>).split(<span class="string">''</span>);</span><br><span class="line"></span><br><span class="line">    arra.map(<span class="function">(<span class="params">itema, indexa</span>) =&gt;</span> &#123;</span><br><span class="line">        arrb.map(<span class="function">(<span class="params">itemb, indexb</span>) =&gt;</span> &#123;</span><br><span class="line">            result[indexa + indexb] = +result[indexa + indexb] + itema * itemb;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    result.map(<span class="function">(<span class="params">item, index</span>) =&gt;</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (item &gt;= <span class="number">10</span>) &#123;</span><br><span class="line">            result[index + <span class="number">1</span>] = ~~result[index + <span class="number">1</span>] + ~~(result[index] / <span class="number">10</span>);</span><br><span class="line">            result[index] %= <span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> result.reverse().join(<span class="string">''</span>).replace(<span class="regexp">/^0+/</span>, <span class="string">''</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 测试</span></span><br><span class="line">bigNumStringMultiply(<span class="string">'87683997878946347862738468726348289374972938479823749872938479234923846237672364732478237492394738748273948789237487238472389478923748782364723647823847283974'</span>, <span class="string">'92734897238947832456237489273498723984782365783465782634786287346782638472983749823748357634785278348273498723894792387489327487238478234827389472938748923748235862384782374'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// '8131366532804209271848777343148089734867540084740313073714626072147803459519225889924153683477346079879903114543791258684883828524130882115379440144725160920757443592354053118047908949159167193991569423470425543890534108742857689635336451466135028613346191424578161286549581455047710048500852396172271754236155746244567328967874276'</span></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -516,13 +505,6 @@
           
   <div class="comments" id="comments">
     
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
-      </div>
-    
   </div>
 
 
@@ -546,7 +528,7 @@
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
@@ -557,9 +539,7 @@
 
       <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/uploads/avatar.png"
-               alt="Rico" />
+          <img class="site-author-image" itemprop="image" src="/uploads/avatar.png" alt="Rico">
           <p class="site-author-name" itemprop="name">Rico</p>
            
               <p class="site-description motion-element" itemprop="description"></p>
@@ -570,7 +550,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">33</span>
+                <span class="site-state-item-count">31</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -592,7 +572,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">54</span>
+                <span class="site-state-item-count">53</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -665,10 +645,10 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
+        <div class="copyright">
   
   &copy;  2016 - 
-  <span itemprop="copyrightYear">2018</span>
+  <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -690,7 +670,7 @@
 
         
 <div class="busuanzi-count">
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
     <span class="site-uv">
@@ -801,26 +781,6 @@
 
   
 
-    
-      <script id="dsq-count-scr" src="https://ricosmall.disqus.com/count.js" async></script>
-    
-
-    
-      <script type="text/javascript">
-        var disqus_config = function () {
-          this.page.url = 'http://yoursite.com/2017/03/30/大整数加法、乘法的JavaScript实现/';
-          this.page.identifier = '2017/03/30/大整数加法、乘法的JavaScript实现/';
-          this.page.title = '大整数加法、乘法的JavaScript实现';
-        };
-        var d = document, s = d.createElement('script');
-        s.src = 'https://ricosmall.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', '' + +new Date());
-        (d.head || d.body).appendChild(s);
-      </script>
-    
-
-  
-
 
 
 
@@ -833,6 +793,10 @@
   
 
 
+
+
+
+  
 
 
 
