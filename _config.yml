@@ -70,6 +70,6 @@ theme: next
 deploy:
   type: git
   repository:
-    # github: git@github.com:ricosmall/ricosmall.github.io.git
+    github: git@github.com:ricosmall/hexo-blog.git
     coding: git@git.coding.net:ricosmall/ricosmall.coding.me.git
   branch: master
